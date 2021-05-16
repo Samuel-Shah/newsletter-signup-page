@@ -1,5 +1,0 @@
-//API KEY
-//aec348bea008b5e5dc9fa46ba2b8db93-us1
-
-//List Id
-//bae7136945
