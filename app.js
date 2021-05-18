@@ -7,6 +7,7 @@ const https = require("https");
 const { url } = require("inspector");
 require("dotenv").config();
 
+
 const app = express();
 
 app.use(express.static("public"));
@@ -37,7 +38,7 @@ app.post("/", function(req, res){
 
     const jsonData = JSON.stringify(data);
 
-    const url = "https://api.mailchimp.com/3.0/lists/"+process.env.LIST_ID;
+    const url = "https://api.mailchimp.com/3.0/lists/bae7136945";
 
     const options ={
         method:"POST",
